@@ -4,13 +4,13 @@ import com.cursojava.proyecto.model.PokemonDTO;
 import com.cursojava.proyecto.model.TipoDTO;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 
-@DataMongoTest
+@SpringBootTest
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class PokemonRepositoryTest {
 

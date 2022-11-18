@@ -17,7 +17,7 @@ public class PokemonDTO {
 
     private TipoDTO tipo1;
 
-    private List<Movimiento> movimientos;
+    private List<Moves> movimientos;
 
     private TipoDTO tipo2;
 
@@ -74,11 +74,11 @@ public class PokemonDTO {
     public void setTipo2(TipoDTO tipo2) { this.tipo2 = tipo2;
     }
 
-    public List<Movimiento> getMovimientos() {
+    public List<Moves> getMovimientos() {
         return movimientos;
     }
 
-    public void setMovimientos(List<Movimiento> movimientos) {
+    public void setMovimientos(List<Moves> movimientos) {
         this.movimientos = movimientos;
     }
 
@@ -135,13 +135,6 @@ public class PokemonDTO {
         }
     }
 
-    public Optional<PokemonDTO> getEvolucion() {
-        return evolucion;
-    }
-
-    public void setEvolucion(Optional<PokemonDTO> evolucion) {
-        this.evolucion = evolucion;
-    }
 
     @Override
     public String toString() {

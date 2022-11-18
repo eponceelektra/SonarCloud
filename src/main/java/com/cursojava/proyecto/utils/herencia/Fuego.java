@@ -1,44 +1,44 @@
 package com.cursojava.proyecto.utils.herencia;
 
-public class Fuego extends Movimiento{
+public class Fuego extends Moves{
 
     public Fuego(){
         super();
-        movimientos.add("Anillo ígneo");
-        movimientos.add("Ascuas");
-        movimientos.add("Balón ígneo");
-        movimientos.add("Bomba ígnea");
-        movimientos.add("Calcinación");
-        movimientos.add("Colmillo ígneo");
-        movimientos.add("Coraza trampa");
-        movimientos.add("Danza llama");
-        movimientos.add("Día soleado");
-        movimientos.add("Envite ígneo");
-        movimientos.add("Erupción de ira2");
-        movimientos.add("Estallido");
-        movimientos.add("Fuego fatuo");
-        movimientos.add("Fuego sagrado");
-        movimientos.add("Giro fuego");
-        movimientos.add("Golpe calor");
-        movimientos.add("Humareda");
-        movimientos.add("Hecatombe pírica");
-        movimientos.add("Infierno");
-        movimientos.add("Lanzallamas");
-        movimientos.add("Látigo ígneo");
-        movimientos.add("Llama azul");
-        movimientos.add("Llama embrujada");
-        movimientos.add("Llama final");
-        movimientos.add("Llama fusión");
-        movimientos.add("Llamarada");
-        movimientos.add("Lluvia ígnea");
-        movimientos.add("Nitrocarga");
-        movimientos.add("Onda ígnea");
-        movimientos.add("Patada ígnea");
-        movimientos.add("Pirotecnia");
-        movimientos.add("Puño fuego");
-        movimientos.add("Rueda fuego");
-        movimientos.add("Sofoco");
-        movimientos.add("V de fuego");
-        movimientos.add("Voto fuego");
+        mov.add("Anillo ígneo");
+        mov.add("Ascuas");
+        mov.add("Balón ígneo");
+        mov.add("Bomba ígnea");
+        mov.add("Calcinación");
+        mov.add("Colmillo ígneo");
+        mov.add("Coraza trampa");
+        mov.add("Danza llama");
+        mov.add("Día soleado");
+        mov.add("Envite ígneo");
+        mov.add("Erupción de ira2");
+        mov.add("Estallido");
+        mov.add("Fuego fatuo");
+        mov.add("Fuego sagrado");
+        mov.add("Giro fuego");
+        mov.add("Golpe calor");
+        mov.add("Humareda");
+        mov.add("Hecatombe pírica");
+        mov.add("Infierno");
+        mov.add("Lanzallamas");
+        mov.add("Látigo ígneo");
+        mov.add("Llama azul");
+        mov.add("Llama embrujada");
+        mov.add("Llama final");
+        mov.add("Llama fusión");
+        mov.add("Llamarada");
+        mov.add("Lluvia ígnea");
+        mov.add("Nitrocarga");
+        mov.add("Onda ígnea");
+        mov.add("Patada ígnea");
+        mov.add("Pirotecnia");
+        mov.add("Puño fuego");
+        mov.add("Rueda fuego");
+        mov.add("Sofoco");
+        mov.add("V de fuego");
+        mov.add("Voto fuego");
     }
 }

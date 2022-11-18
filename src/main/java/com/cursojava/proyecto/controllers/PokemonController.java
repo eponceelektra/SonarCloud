@@ -1,6 +1,5 @@
 package com.cursojava.proyecto.controllers;
 
-import com.cursojava.proyecto.model.ErrorDTO;
 import com.cursojava.proyecto.model.Pokeapi.PokeApiPokemon;
 import com.cursojava.proyecto.model.PokemonDTO;
 import com.cursojava.proyecto.model.ResponseDTO;
@@ -78,17 +77,17 @@ public class PokemonController {
         Batalla<PokemonDTO, PokemonDTO> gimnacio = (x, y) -> {
             if (random.nextBoolean()) {
                 if (random.nextBoolean() && util.isNotNullValue(Optional.ofNullable(x.getTipo2().getNombre()))) {
-                    LOGGER.info(x.getMovimientos().get(1).accion(x.getNombre()));
+                    LOGGER.info(x.getMovimientos().get(1).action(x.getNombre()));
                 } else {
-                    LOGGER.info(x.getMovimientos().get(0).accion(x.getNombre()));
+                    LOGGER.info(x.getMovimientos().get(0).action(x.getNombre()));
 
                 }
                 return x;
             } else {
                 if (random.nextBoolean() && util.isNotNullValue(Optional.ofNullable(y.getTipo2().getNombre()))) {
-                    LOGGER.info(y.getMovimientos().get(1).accion(y.getNombre()));
+                    LOGGER.info(y.getMovimientos().get(1).action(y.getNombre()));
                 } else {
-                    LOGGER.info(y.getMovimientos().get(0).accion(y.getNombre()));
+                    LOGGER.info(y.getMovimientos().get(0).action(y.getNombre()));
                 }
                 return y;
             }
