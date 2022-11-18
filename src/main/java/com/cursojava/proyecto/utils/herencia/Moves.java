@@ -17,20 +17,10 @@ public class Moves {
         int r = rnd.nextInt(mov.size());
         return nombre + " attack with an "+ mov.get(r);
     }
-
-    public List<String> getMov() {
-        return mov;
-    }
-
-    public void setMov(List<String> mov) {
-        this.mov = mov;
-    }
-
+    
     @Override
     public String toString() {
-        return "Movimiento{" +
-                "movimientos=" + mov +
-                '}';
+        return "Movimiento { movimientos=" + mov.toString() + "}";
     }
 
     public String getMovimientoAleatorio(){
