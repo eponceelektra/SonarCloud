@@ -1,36 +1,36 @@
 package com.cursojava.proyecto.utils.herencia;
 
-public class Veneno extends Moves{
+public class Veneno extends Movimiento {
 
     public Veneno(){
         super();
-        mov.add("Ácido");
-        mov.add("Armadura ácida");
-        mov.add("Bilis");
-        mov.add("Bomba ácida");
-        mov.add("Bomba lodo");
-        mov.add("Búnker");
-        mov.add("Carga tóxica");
-        mov.add("Cola veneno");
-        mov.add("Colmillo veneno");
-        mov.add("Diluvio corrosivo");
-        mov.add("Enrosque");
-        mov.add("Eructo");
-        mov.add("Gas venenoso");
-        mov.add("Hilo venenoso");
-        mov.add("Lanza mugre");
-        mov.add("Moluscañón");
-        mov.add("Niebla clara");
-        mov.add("Onda tóxica");
-        mov.add("Picotazo venenoso");
-        mov.add("Polución");
-        mov.add("Polvo veneno");
-        mov.add("Púas tóxicas");
-        mov.add("Purificación");
-        mov.add("Puya nociva");
-        mov.add("Residuos");
-        mov.add("Tóxico");
-        mov.add("Trampa venenosa");
-        mov.add("Veneno X");
+        movimientos.add("Ácido");
+        movimientos.add("Armadura ácida");
+        movimientos.add("Bilis");
+        movimientos.add("Bomba ácida");
+        movimientos.add("Bomba lodo");
+        movimientos.add("Búnker");
+        movimientos.add("Carga tóxica");
+        movimientos.add("Cola veneno");
+        movimientos.add("Colmillo veneno");
+        movimientos.add("Diluvio corrosivo");
+        movimientos.add("Enrosque");
+        movimientos.add("Eructo");
+        movimientos.add("Gas venenoso");
+        movimientos.add("Hilo venenoso");
+        movimientos.add("Lanza mugre");
+        movimientos.add("Moluscañón");
+        movimientos.add("Niebla clara");
+        movimientos.add("Onda tóxica");
+        movimientos.add("Picotazo venenoso");
+        movimientos.add("Polución");
+        movimientos.add("Polvo veneno");
+        movimientos.add("Púas tóxicas");
+        movimientos.add("Purificación");
+        movimientos.add("Puya nociva");
+        movimientos.add("Residuos");
+        movimientos.add("Tóxico");
+        movimientos.add("Trampa venenosa");
+        movimientos.add("Veneno X");
     }
 }

@@ -17,11 +17,14 @@ public class TipoRepositoryTest {
 
     @BeforeAll
     private void init_test(){
-        tipoRepository.save(new TipoDTO("Fuego"));
         tipoRepository.save(new TipoDTO("Agua"));
-        tipoRepository.save(new TipoDTO("Tierra"));
+        tipoRepository.save(new TipoDTO("Electrico"));
+        tipoRepository.save(new TipoDTO("Fuego"));
+        tipoRepository.save(new TipoDTO("Normal"));
         tipoRepository.save(new TipoDTO("Planta"));
-
+        tipoRepository.save(new TipoDTO("Tierra"));
+        tipoRepository.save(new TipoDTO("Veneno"));
+        tipoRepository.save(new TipoDTO("Volador"));
     }
 
     @AfterAll
@@ -34,12 +37,12 @@ public class TipoRepositoryTest {
         List<TipoDTO> tipos = tipoRepository.findAll();
         // Verificar
         Assertions.assertAll(
-                () -> Assertions.assertEquals(4, tipos.size()),
+                () -> Assertions.assertEquals(8, tipos.size()),
                 () -> Assertions.assertTrue(
                         tipos.stream()
                                 .map(TipoDTO::getNombre)
                                 .collect(Collectors.toList())
-                                .containsAll(List.of("Fuego", "Agua", "Tierra", "Planta")))
+                                .containsAll(List.of("Agua","Electrico","Fuego","Normal", "Veneno","Volador", "Tierra", "Planta")))
         );
     }
 }

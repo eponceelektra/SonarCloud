@@ -1,10 +1,10 @@
 package com.cursojava.proyecto.patterns.creational.abstractFactory;
 
-import com.cursojava.proyecto.utils.herencia.Moves;
+import com.cursojava.proyecto.utils.herencia.Movimiento;
 
 public class PokemonAgua implements AprenderMovimiento{
     @Override
-    public Moves aprenderMovimiento() {
+    public Movimiento aprenderMovimiento() {
         return null;
     }
 }

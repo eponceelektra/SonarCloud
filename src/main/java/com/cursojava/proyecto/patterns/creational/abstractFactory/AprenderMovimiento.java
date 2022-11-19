@@ -1,9 +1,9 @@
 package com.cursojava.proyecto.patterns.creational.abstractFactory;
 
-import com.cursojava.proyecto.utils.herencia.Moves;
+import com.cursojava.proyecto.utils.herencia.Movimiento;
 
 public interface AprenderMovimiento {
 
-    Moves aprenderMovimiento();
+    Movimiento aprenderMovimiento();
 
 }

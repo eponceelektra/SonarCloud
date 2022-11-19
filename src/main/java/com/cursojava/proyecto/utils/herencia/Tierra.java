@@ -1,34 +1,34 @@
 package com.cursojava.proyecto.utils.herencia;
 
-public class Tierra extends Moves{
+public class Tierra extends Movimiento {
 
     public Tierra(){
         super();
-        mov.add("Ataque arena");
-        mov.add("Ataque óseo");
-        mov.add("Barrena telúrica");
-        mov.add("Bofetón lodo");
-        mov.add("Bomba fango");
-        mov.add("Bucle arena");
-        mov.add("Chapoteo lodo");
-        mov.add("Disparo lodo");
-        mov.add("Excavar");
-        mov.add("Fertilizante");
-        mov.add("Filo del abismo");
-        mov.add("Fisura");
-        mov.add("Fuerza equina");
-        mov.add("Fuerza telúrica");
-        mov.add("Hueso palo");
-        mov.add("Huesomerang");
-        mov.add("Magnitud");
-        mov.add("Mil flechas");
-        mov.add("Mil temblores");
-        mov.add("Pataleta");
-        mov.add("Púas");
-        mov.add("Recogearena");
-        mov.add("Taladradora");
-        mov.add("Terratemblor");
-        mov.add("Terremoto");
-        mov.add("Tierra viva");
+        movimientos.add("Ataque arena");
+        movimientos.add("Ataque óseo");
+        movimientos.add("Barrena telúrica");
+        movimientos.add("Bofetón lodo");
+        movimientos.add("Bomba fango");
+        movimientos.add("Bucle arena");
+        movimientos.add("Chapoteo lodo");
+        movimientos.add("Disparo lodo");
+        movimientos.add("Excavar");
+        movimientos.add("Fertilizante");
+        movimientos.add("Filo del abismo");
+        movimientos.add("Fisura");
+        movimientos.add("Fuerza equina");
+        movimientos.add("Fuerza telúrica");
+        movimientos.add("Hueso palo");
+        movimientos.add("Huesomerang");
+        movimientos.add("Magnitud");
+        movimientos.add("Mil flechas");
+        movimientos.add("Mil temblores");
+        movimientos.add("Pataleta");
+        movimientos.add("Púas");
+        movimientos.add("Recogearena");
+        movimientos.add("Taladradora");
+        movimientos.add("Terratemblor");
+        movimientos.add("Terremoto");
+        movimientos.add("Tierra viva");
     }
 }
